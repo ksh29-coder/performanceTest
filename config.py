@@ -109,4 +109,7 @@ CHART_OUTPUT_DIR = "charts"
 
 # API Configuration
 MAX_RETRIES = 3
-RETRY_DELAY = 1  # seconds between retries 
+RETRY_DELAY = 1  # seconds between retries
+
+# Bedrock Model ARN for Claude 3.7 Sonnet (update region if needed)
+BEDROCK_MODEL_ARN = "arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-7-sonnet-latest" 

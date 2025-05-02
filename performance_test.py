@@ -87,7 +87,7 @@ class PerformanceTest:
             })
             
             response = self.bedrock_client.invoke_model(
-                modelId=BEDROCK_MODEL,
+                modelId=BEDROCK_MODEL_ARN,
                 body=body
             )
             
